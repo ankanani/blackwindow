@@ -9,4 +9,5 @@ creates a resizeable/moveable black window. This can he useful for presentations
 - Click on the faintly colored Arrow on bottom right corner to resize the black window.
 
 You can launch as many instances as required of this app, if you want to have more black windows.
+
 The default executable build given here run on Windows. However you can use the same python source-code, and the build-command, to build it for Mac or any other OS, without any changes.
