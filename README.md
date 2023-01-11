@@ -3,7 +3,8 @@ creates a resizeable/moveable black window. This can he useful for presentations
 
 ### How to Use it
 - Just double-click on `blackwindow.exe`
-- Click anywhere in the lack window and drag to move its location
+- Note that you will not see the mouse pointer over the application.
+- Click anywhere in the lack window and drag to move its location, to hide the area you want.
 - Click on the faintly colored X on top right corner to close the window
 - Click on the faintly colored Arrow on bottom right corner to resize the window
 
