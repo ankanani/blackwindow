@@ -1,0 +1,90 @@
+pip install pyinstaller
+pyinstaller --onefile --windowed --icon=black.ico blackwindow.py
+
+
+C:\mytmp\blackscreen>pyinstaller --onefile --windowed --icon=black.ico blackwindow.py
+85 INFO: PyInstaller: 5.7.0
+87 INFO: Python: 3.10.0
+125 INFO: Platform: Windows-10-10.0.19044-SP0
+126 INFO: wrote C:\mytmp\blackscreen\blackwindow.spec
+129 INFO: UPX is not available.
+131 INFO: Extending PYTHONPATH with paths ['C:\\mytmp\\blackscreen']
+679 INFO: checking Analysis
+679 INFO: Building Analysis because Analysis-00.toc is non existent
+680 INFO: Initializing module dependency graph...
+684 INFO: Caching module graph hooks...
+704 INFO: Analyzing base_library.zip ...
+2455 INFO: Loading module hook 'hook-heapq.py' from 'C:\\Users\\ankanani\\AppData\\Roaming\\Python\\Python310\\site-packages\\PyInstaller\\hooks'...
+2544 INFO: Loading module hook 'hook-encodings.py' from 'C:\\Users\\ankanani\\AppData\\Roaming\\Python\\Python310\\site-packages\\PyInstaller\\hooks'...
+4018 INFO: Loading module hook 'hook-pickle.py' from 'C:\\Users\\ankanani\\AppData\\Roaming\\Python\\Python310\\site-packages\\PyInstaller\\hooks'...
+5541 INFO: Caching module dependency graph...
+5675 INFO: running Analysis Analysis-00.toc
+5695 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable   required by C:\Program Files\Python310\python.exe
+5846 INFO: Analyzing C:\mytmp\blackscreen\blackwindow.py
+6023 INFO: Processing module hooks...
+6029 INFO: Loading module hook 'hook-_tkinter.py' from 'C:\\Users\\ankanani\\AppData\\Roaming\\Python\\Python310\\site-packages\\PyInstaller\\hooks'...
+6220 INFO: checking Tree
+6220 INFO: Building Tree because Tree-00.toc is non existent
+6221 INFO: Building Tree Tree-00.toc
+6336 INFO: checking Tree
+6337 INFO: Building Tree because Tree-01.toc is non existent
+6339 INFO: Building Tree Tree-01.toc
+6455 INFO: checking Tree
+6456 INFO: Building Tree because Tree-02.toc is non existent
+6458 INFO: Building Tree Tree-02.toc
+6472 INFO: Looking for ctypes DLLs
+6474 INFO: Analyzing run-time hooks ...
+6476 INFO: Including run-time hook 'C:\\Users\\ankanani\\AppData\\Roaming\\Python\\Python310\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py'
+6477 INFO: Including run-time hook 'C:\\Users\\ankanani\\AppData\\Roaming\\Python\\Python310\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py'
+6481 INFO: Looking for dynamic libraries
+108 INFO: Extra DLL search directories (AddDllDirectory): []
+108 INFO: Extra DLL search directories (PATH): ['C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\', 'C:\\Program Files\\Python310\\Scripts\\', 'C:\\Program Files\\Python310\\', 'C:\\WINDOWS\\system32', 'C:\\WINDOWS', 'C:\\WINDOWS\\System32\\Wbem', 'C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\', 'C:\\WINDOWS\\System32\\OpenSSH\\', 'C:\\Program Files\\PuTTY\\', 'C:\\Program Files\\Amazon\\AWSCLIV2\\', 'C:\\Program Files\\WinMerge', 'C:\\Program Files\\nodejs\\', 'C:\\ProgramData\\chocolatey\\bin', 'C:\\Program Files\\dotnet\\', 'C:\\Program Files\\Go\\bin', 'C:\\Program Files\\Docker\\Docker\\resources\\bin', 'C:\\ProgramData\\DockerDesktop\\version-bin', 'C:\\Users\\ankanani\\AppData\\Local\\Microsoft\\WindowsApps', 'C:\\Users\\ankanani\\AppData\\Roaming\\npm', 'C:\\Users\\ankanani\\go\\bin', 'C:\\Users\\ankanani\\AppData\\Roaming\\Python\\Python310\\Scripts']
+7545 INFO: Looking for eggs
+7545 INFO: Using Python library C:\Program Files\Python310\python310.dll
+7547 INFO: Found binding redirects: []
+7551 INFO: Warnings written to C:\mytmp\blackscreen\build\blackwindow\warn-blackwindow.txt
+7585 INFO: Graph cross-reference written to C:\mytmp\blackscreen\build\blackwindow\xref-blackwindow.html
+7655 INFO: checking PYZ
+7655 INFO: Building PYZ because PYZ-00.toc is non existent
+7656 INFO: Building PYZ (ZlibArchive) C:\mytmp\blackscreen\build\blackwindow\PYZ-00.pyz
+7927 INFO: Building PYZ (ZlibArchive) C:\mytmp\blackscreen\build\blackwindow\PYZ-00.pyz completed successfully.
+7937 INFO: checking PKG
+7937 INFO: Building PKG because PKG-00.toc is non existent
+7937 INFO: Building PKG (CArchive) blackwindow.pkg
+10045 INFO: Building PKG (CArchive) blackwindow.pkg completed successfully.
+10063 INFO: Bootloader C:\Users\ankanani\AppData\Roaming\Python\Python310\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+10063 INFO: checking EXE
+10064 INFO: Building EXE because EXE-00.toc is non existent
+10064 INFO: Building EXE from EXE-00.toc
+10065 INFO: Copying bootloader EXE to C:\mytmp\blackscreen\dist\blackwindow.exe.notanexecutable
+10072 INFO: Copying icon to EXE
+10072 INFO: Copying icons from ['C:\\mytmp\\blackscreen\\black.ico']
+10073 INFO: Writing RT_GROUP_ICON 0 resource with 20 bytes
+10073 INFO: Writing RT_ICON 1 resource with 4264 bytes
+10077 INFO: Copying 0 resources to EXE
+10078 INFO: Embedding manifest in EXE
+10079 INFO: Updating manifest in C:\mytmp\blackscreen\dist\blackwindow.exe.notanexecutable
+10080 INFO: Updating resource type 24 name 1 language 0
+10083 INFO: Appending PKG archive to EXE
+10097 INFO: Fixing EXE headers
+10232 INFO: Building EXE from EXE-00.toc completed successfully.
+
+C:\mytmp\blackscreen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
