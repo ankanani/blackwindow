@@ -10,4 +10,4 @@ creates a resizeable/moveable black window. This can he useful for presentations
 
 You can launch as many instances as required of this app, if you want to have more black windows.
 
-The default executable build given here run on Windows. However you can use the same python source-code, and the build-command, to build it for Mac or any other OS, without any changes.
+The default executable build given here runs on Windows. However you can use the same python source-code, and the given build-command, to build it for Mac or any other OS, without requiring any changes to the code.
